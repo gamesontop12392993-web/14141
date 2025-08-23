@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
-import { Copy, Check, Brain, Zap, Users, Shield, TrendingUp, MessageCircle, Twitter } from 'lucide-react'
+import { Copy, Check, Brain, Zap, Users, Shield, MessageCircle, Twitter } from 'lucide-react'
 
 export default function Home() {
   const [copied, setCopied] = useState(false)
